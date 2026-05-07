@@ -8,13 +8,13 @@ os.environ['PYTHONHASHSEED'] = str(SEED)
 
 import json
 import time
-from langgraph_core__v3 import app 
+from langgraph_core import app 
 
 # ==========================================
 # ShellGuard 评估系统
 # ==========================================
 
-def evaluate_dataset(dataset_path="test_1000.json"):
+def evaluate_dataset(dataset_path="ShellGuard-Bench.json"):
     print("="*60)
     print("🚀 开始执行 ShellGuard 批量评估")
     print("="*60)
